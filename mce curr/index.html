@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+
+		<!-- ==============================================
+		Title and basic Metas
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>Multiple Currency Exchange</title>
+		<meta name="description" content="Attraction is a multipurpose one/multi page HTML template.">
+		<meta name="author" content="Your Name Here">
+
+		<!-- ==============================================
+		Mobile Metas
+		=============================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+		<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->
+		<link rel="stylesheet" href="css/flexslider.css"> <!-- Flexslider -->
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css"/> <!-- Fancybox -->
+		<link rel="stylesheet" href="css/style.css"> <!-- Main stylesheet -->
+		<link rel="stylesheet" href="css/style-responsive.css"> <!-- Main stylesheet responsive -->
+        <style>
+		
+		</style>
+
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Lato|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jQuery main file -->
+		<script type="text/javascript" src="js/jquery.flexslider.min.js"></script> <!-- Flexslider -->
+		<script type="text/javascript" src="js/jquery.easing.pack.js"></script> <!-- Easing for Fancybox -->
+		<script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script> <!-- Mousewheel for Fancybox -->
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+		<script type="text/javascript" src="js/attraction.js"></script> <!-- Custom JS -->
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-62805259-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
+                  
+	</head>
+	<body id="top" class="fixed-nav">
+
+		<!-- ==============================================
+		Header
+		=============================================== -->
+		<section class="header">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+
+						<!-- ==============================================
+						Logo
+						=============================================== -->
+						<div class="logo float-left">
+							<a href="#top">
+								<h1>Multiple<span>Currency Exchange</span></h1>
+							</a>
+						</div>
+						<!-- End Logo 
+						=============================================== -->
+
+						<!-- ==============================================
+						Navigation
+						=============================================== -->
+						<ul class="nav hidden-phone hidden-tablet">
+							<li><a href="#top">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#program">Rates</a></li>
+							<li><a href="#prices">locations</a></li>
+							
+						
+							<li><a href="#register">Contact</a></li>
+						</ul>
+						<!-- End Navigation 
+						=============================================== -->
+
+						<!-- ==============================================
+						Mobile Navigation
+						=============================================== -->
+						<form name="nav" class="float-right">
+				         	<select class="mobile-nav hidden-desktop" data-autogenerate="true"></select>
+				        </form>
+				        <!-- End Mobile Navigation 
+						=============================================== -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Header 
+		=============================================== -->
+
+		<!-- ==============================================
+		Teaser
+		=============================================== -->
+		<section class="teaser">
+			<div class="container">
+				<div class="row">
+
+					<!-- ==============================================
+					Text
+					=============================================== -->
+					<div class="span7 offset5 text-container">
+						<h1>Exchange with confidence </h1>
+						<h2>You will get the best rates here</h2> 
+					</div>
+					<!-- End Text
+					=============================================== -->
+
+				</div>
+			</div>
+		</section>
+		<!-- End Teaser 
+		============================================== -->
+
+		<!-- ==============================================
+		Intro
+		=============================================== -->
+		<section class="intro white-background" id="intro">
+			<div class="container">
+				<div class="row">
+
+					<!-- ==============================================
+					Featured Box
+					=============================================== -->
+					<div class="span4 featured float-left">	
+						<h2 class="feature-title">Today's Rates</h2>
+						<div class="event-recap">
+							<div class="event-date">
+								<h3>Date</h3>
+								<p id="time">.</p>
+							</div>
+                       				<script type="text/javascript">
+									var d = new Date();
+									
+									document.getElementById("time").innerHTML = d.toDateString();
+									</script>
+                                    <p>
+									<ul>
+                                    	<li>
+                                        	<strong>
+                                       			<span class="currvalue">
+                                                	1.00 USD =
+
+                                                </span>
+                                                <span class="currname">
+                                                	1.2930 CAD
+                                                </span>
+                                			</strong>
+            	                   		</li>
+                                       <li>
+                                        	<strong>
+                                       			<span class="currvalue">
+                                                	1.00 EURO = 
+                                                </span>
+                                                <span class="currname">
+                                                	1.4750 CAD
+                                                </span>
+                                			</strong>
+            	                   		</li>
+                                       <li>
+                                        	<strong>
+                                       			<span class="currvalue">
+                                                	1.00 GBP = 
+                                                </span>
+                                                <span class="currname">
+                                                	1.8900 CAD
+                                                </span>
+                                			</strong>
+            	                   		</li>  
+                                         <li>
+                                        	<strong>
+                                       			<span class="currvalue">
+                                                	1.00 MXN = 
+                                                </span>
+                                                <span class="currname">
+                                                	0.072760 CAD
+                                                </span>
+                                			</strong>
+	            	                   		</li>
+                                        
+                            		</ul>
+                            </p>
+							
+							<p>* call us to get the latest rates.</p>
+							<a href="tel:16046183777" class="event-button">Call Now 604.618.3777</a><br/>
+                            <a href="#program" class="event-button">More Rates</a>
+						</div>
+					</div>
+					<!-- End Featured Box
+					=============================================== -->
+
+					<div class="span7 offset1 clearfix float-right" id="about">
+						<h2 class="padding-top">What is <span>Multiple Currency Exchange</span>!</h2>
+						<p>We are a full service foreign currency exchange company .  &nbsp;We  provide a higher grade of  foreign exchange services. Our method is the embodiment of the principles of  integrity, attentiveness and diligence. While the company has grown, our  corporate culture continues to embrace the same approach and the same tone of  caring is reflected throughout the organization.</p>
+					    <p>&nbsp;</p>
+			      </div>
+					
+				</div>
+
+				<div class="row">
+					<div class="span12">
+						<p>IThe quality of care taken in our work has led to a portfolio of  successful clients. Consequently, we have been very successful. We know that  taking the correct quality of care leads to success. With this outlook, we are  your earnest partner’s in all matters of foreign currency exchange and  international funds transfer.</p>
+					    <p>We provide services to corporations and individuals. Our  offerings include currency risk management, hedging, bidding, wire transfers,  bank drafts, and foreign cash/banknotes. In addition to assisting foreign  corporations with international exposure, we provide foreign exchange services  to individuals shopping, vacationing, buying real estate, investing,  immigrating or emigrating, across borders. Our services are also suitable for  paying tuition fees or family remittances.</p>
+					    <p>Our mission is to  save you bundles money and time with our exchange rate and excellent customer  service. Our experienced foreign exchange advisors will ensure our clients stay  informed and book at the right time.</p>
+				  </div>
+			  </div>
+
+				<div class="row">
+					<!-- ==============================================
+					Video
+					=============================================== -->
+					<div class="span12"></div>
+				  <!-- End Video
+					=============================================== -->
+				</div>
+			</div>
+		</section>
+		<!-- End Intro 
+		============================================== -->
+
+		<!-- ==============================================
+		Program
+		=============================================== -->
+		<section class="program light-gray-background" id="program">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h2 class="no-margin-bottom">Rates</h2>
+						<h4>Please call to get the exact Rates</h4>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="span12">
+						<table cellpaddind="0" cellspacing="0">
+							<thead>
+							
+                               <tr><td width="40%">Country</td>
+                               <td width="30%">We Buy at</td>
+                               <td width="30%">We Sell at </td>
+                               </tr>
+							</thead>
+							<tbody>
+								<tr class="odd">
+									<td class="column-one">US Dollar (USD) </td>
+								  <td class="column-two">1.2700</td>
+                                  <td class="column-three">1.2930</td>
+							  </tr>
+								<tr class="even">
+									<td class="column-one">Euro (EUR)</td>
+									<td class="column-two">1.4300</td>
+                                  <td class="column-three">1.4750</td>
+							  </tr>
+                             
+                              <tr class="odd">
+								<td class="column-one">Japenese Yen (JPY)</td>
+									<td class="column-two">0.011890</td>
+                                  <td class="column-three">0.012270</td>
+							  </tr>
+                              <tr class="even">
+								<td class="column-one">Chinese Yuan (CNY)</td>
+									<td class="column-two">0.188300</td>
+                                  <td class="column-three">0.206500</td>
+							  </tr>
+                                 <tr class="odd">
+								   <td class="column-one">UK Pound Sterling (GBP)</td>
+									<td class="column-two">1.8400</td>
+                                  <td class="column-three">1.8900</td>
+							  </tr>
+                              <tr class="even">
+								<td class="column-one">Indian Rupee(INR)</td>
+									<td class="column-two">0.018660</td>
+                                  <td class="column-three">0.021260</td>
+							  </tr>
+                                
+                              <tr class="even">
+								<td class="column-one">Philippines Peso (PHP)</td>
+									<td class="column-two">0.026900</td>
+                                  <td class="column-three">0.029300</td>
+							  </tr>
+                               <tr class="even">
+									<td class="column-one">Australian Dollar (AUD)</td>
+									<td class="column-two">0.9200</td>
+                                  <td class="column-three">0.9600</td>
+							  </tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="span12"></div>
+			  </div>
+
+				<div class="row"></div>
+		  </div>
+		</section>
+		<!-- End Program 
+		============================================== -->
+
+		<!-- ==============================================
+	
+
+		<!-- ==============================================
+		Gallery
+		=============================================== -->
+		<section class="gallery dark-gray-background" id="photos">
+			<div class="container"></div>
+	</section>
+		<!-- End Gallery
+		============================================== -->
+
+		<!-- ==============================================
+		Prices
+		=============================================== -->
+		<section class="prices white-background" id="prices">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h2 class="no-margin-bottom">&nbsp;</h2>
+						</div>
+				</div>
+
+				<div class="row">
+					<div class="span6">
+						<div class="ticket">
+							<h4><span>Phone #: <a href="tel:16043362257" value="+16043362257" target="self">604 336-2257</a></span></h4>
+							<p style="font-size:25px;">6475 Fraser St, <br/> Vancouver, BC V5W 3A6</p>
+						</div>
+				  <a href="#register" class="ticket-button">Vancouver Address</a>					</div>
+					<div class="span6">
+						<div class="ticket">
+							<h4><span>Phone: <a href="tel:16046183777" value="+16046183777" target="self">604 618 3777</a></span><em></em></h4>
+							<p style="font-size:25px;" >#71-10th street <br/>new westminster B.C. v3m 3x4</p>
+						</div>
+				  <a href="#register" class="ticket-button">New Westminster Address</a>					</div>
+			  </div>
+
+				
+			</div>
+		</section>
+		<!-- End Prices 
+		============================================== -->
+
+		<!-- ==============================================
+		Map
+		=============================================== -->
+		<section class="map"></section>
+		<!-- End Map 
+		============================================== -->
+
+		<!-- ==============================================
+		Register
+		=============================================== -->
+<section class="register darker-background" id="register"></section>
+		<!-- End Register 
+		============================================== -->
+
+		<!-- ==============================================
+		Sponsor
+		=============================================== -->
+		<section class="sponsor white-background">
+			<div class="container">
+				<div class="row">
+					<div class="span2 text-center"></div>
+			  <div class="span3 text-center"></div>
+					<div class="span2 text-center"></div>
+					<div class="span3 text-center"></div>
+			  <div class="span2 text-center"></div>
+			  </div>
+			</div>
+		</section>
+		<!-- End Sponsor 
+		============================================== -->
+
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<section class="footer dark-gray-background">
+			<div class="container">
+				<div class="row">
+					<div class="span6">
+						<p class="no-margin-bottom">Multiple Currency Exchange (Head office).<br>
+						6475 Fraser St, Vancouver, BC V5W 3A6<br>
+						phone number 604-336-2257<br>
+						<a href="mailto:info@multiplecurrencyexchange.com">info@multiplecurrencyexchange.com</a></p>			
+					</div>
+					<!-- ==============================================
+					Social
+					=============================================== -->
+					<div class="span6">
+						<ul class="social float-right">	
+							<li><a href="https://plus.google.com/103072907561923066005/"><i class="icon-google-plus"></i></a></li>
+							<li><a href="https://twitter.com/multiplecur"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/multiplecurrencyexchange"><i class="icon-facebook"></i></a></li>
+						</ul>
+						<p class="no-margin-bottom float-right copyright">Copyright &copy; 2013 <a href="http://multiplecurrencyexchange.com/">Multiple Currency Exchange</a>. All rights reserved</p>
+					</div>
+					<!-- End Social
+					============================================== -->
+				</div>
+			</div>
+		</div>
+		<!-- End Footer
+		============================================== -->
+
+
+	</body>
+
+</html>
